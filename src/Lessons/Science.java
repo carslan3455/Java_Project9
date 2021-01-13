@@ -5,6 +5,7 @@ import Student.StudentClass;
 import java.util.ArrayList;
 
 public class Science  extends LessonClass {
+
     private ArrayList<String> topicList = new ArrayList<>();
 
     public Science(StudentClass student) throws Exception {
@@ -13,6 +14,7 @@ public class Science  extends LessonClass {
 
     @Override
    public ArrayList<String> topics() {
+
         topicList.add("Animal Habitats");
         topicList.add("Ball Launcher Challenge");
         topicList.add("Balloon Car");

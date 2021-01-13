@@ -2,7 +2,6 @@ package Lessons;
 
 
 import Student.StudentClass;
-
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Scanner;
@@ -24,8 +23,6 @@ public abstract class LessonClass {
     private LinkedHashMap <String,Integer> classNameAndScore = new LinkedHashMap<>();
 
     private StudentClass student ;
-
-
 
 
      /*
@@ -108,6 +105,7 @@ public abstract class LessonClass {
      */
 
     public void setCreditCount() throws Exception {
+
         ArrayList<String > lessonsName = new ArrayList<>();
 
         Scanner sc = new Scanner(System.in);

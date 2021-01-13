@@ -6,6 +6,7 @@ import Student.StudentClass;
 import java.util.ArrayList;
 
 public class Biology  extends LessonClass{
+
     private ArrayList<String> topicList = new ArrayList<>();
 
     public Biology(StudentClass student) throws Exception {
@@ -14,6 +15,7 @@ public class Biology  extends LessonClass{
 
     @Override
     public ArrayList<String> topics() {
+
         topicList.add("Ecology");
         topicList.add("Opportunities in Biology");
         topicList.add("Principles of Biology 1");

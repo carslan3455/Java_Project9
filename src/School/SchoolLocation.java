@@ -180,13 +180,18 @@ public class SchoolLocation {
      */
 
     public void setSchoolLocation(String SchoolLocation) {
-        ArrayList<String > listOfLocations = getLocationList();
 
+        ArrayList<String > listOfLocations = getLocationList();
 
             if (listOfLocations.contains(SchoolLocation)) {
                 this.location = SchoolLocation;
             }else throw new RuntimeException("Location should be one of the following " +listOfLocations);
 
+
+//        if(locationList.contains(SchoolLocation))
+//            this.location=SchoolLocation;
+//        else
+//            throw new RuntimeException("Location should be one of the following " +locationList);
 
 
     }

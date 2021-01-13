@@ -6,13 +6,16 @@ import Student.StudentClass;
 import java.util.ArrayList;
 
 public class Math extends LessonClass{
+
     private ArrayList<String> topicList = new ArrayList<>();
+
     public Math(StudentClass student) throws Exception {
         super(student);
     }
 
     @Override
     public ArrayList<String> topics() {
+
         topicList.add("Place Value");
         topicList.add("Compare Whole Numbers");
         topicList.add("Represent Decimals");

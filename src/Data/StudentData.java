@@ -1,6 +1,8 @@
 package Data;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class StudentData {
 
@@ -29,6 +31,22 @@ public class StudentData {
     */
 
     private LinkedHashMap<String ,String> UsernameAndPassword = new LinkedHashMap<>();
+
+
+    /*
+    private LinkedHashMap<Integer ,User> users = new LinkedHashMap<>();
+            // key = ID   -> ArrayList = Laptop Özellikleri
+
+
+  class User
+  User.ad
+    ad
+    soyad
+    d.tarihi
+    dogumyeri
+
+   */
+
 
     public StudentData(){
         AddUserNameAndPassword();
